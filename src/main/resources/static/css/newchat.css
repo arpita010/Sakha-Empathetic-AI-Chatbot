@@ -1,0 +1,269 @@
+
+/* Left Volume Img */
+#img-volume{
+    /* margin-left: 1340px; */
+    /* //text-align: left; */
+    height: 25px;
+    width: 25px;
+} 
+
+/* end */ 
+
+/* Customise name  */
+
+.top{
+    text-align: center;
+    font-size: 180%;
+    color: rgb(176, 148, 4);
+} 
+
+/* end  */
+
+
+/* End Part */
+.music{
+    height: 60px;
+    width: 100px;
+} 
+
+/* End */ 
+
+/* Sakha Name */
+.name{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 50px;
+    color: aliceblue;
+} 
+
+/* End */ 
+
+/* Place Holder */
+.text{
+    text-align: center;
+} 
+/* End */ 
+
+/* Logo */
+.logo{
+    height: 50px;
+    width: 60px;
+} 
+/* End */ 
+
+
+/* Ask Button */
+.btn-ask{
+    width: 75%;
+    font-size: 20px;
+} 
+/* End */ 
+
+/* Place Holder Text */
+.text-area{
+    width: 75%;
+    height: 50%;
+    margin-left: 13%;
+    /* margin-top: 2%; */
+    margin-bottom: 0px;
+    background-color: rgb(30, 28, 28);
+    color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: rgb(210, 134, 106);
+} 
+/* End */ 
+
+/* Team Sakha */
+.lower-text{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    color: rgb(64, 63, 59);
+} 
+/* End */
+
+/*  FAQ Part */
+.btn-col{
+    color: aliceblue;
+} 
+/* end */ 
+
+/* Top Images */ 
+/* .left{
+    margin-left: 10%;
+    height: 30%; 
+    width: 30%;
+} 
+.right{
+   margin-left:60% ;
+    height: 30%;
+    width: 30%;
+    margin-top: 0px;
+} */ 
+
+
+/* try */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.wrapper {
+    width: 370px;
+    width: 74%;margin-left: 143px;
+}
+
+.wrapper .title {
+    background: #DC8449;
+    color: white;
+    line-height: 2.5;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+.wrapper .box {
+    border: 1px solid #efefef;
+    padding: 10px 15px;
+    min-height: 400px;
+    max-height: 400px;
+    width: 100%;
+}
+
+.wrapper .box .item {
+    display: flex;
+    float: left;
+    margin: 10px 0;
+}
+
+.wrapper .box .item .icon {
+    /* background: #DC8449; */
+    color: white;
+    width: 60px;
+    height: 50px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+}
+
+.wrapper .box .item .msg {
+    background: #DC8449;
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.wrapper .box .item .msg p {
+    padding: 10px;
+}
+
+.wrapper .box .item.right {
+    float: right;
+}
+
+.wrapper .box .item.right .msg {
+    background: #efefef;
+    color: #333;
+}
+
+.wrapper .typing-area {
+    width: 100%;
+    background: #efefef;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.wrapper .typing-area .input-field {
+    width: 100%;
+    position: relative;
+}
+
+.wrapper .typing-area .input-field input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    outline: none;
+    padding-right: 70px;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.3s all ease;
+}
+
+.wrapper .typing-area .input-field input:focus {
+    border-color: #DC8449;
+}
+
+.wrapper .typing-area .input-field button {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background: transparent;
+    border: 1px solid #DC8449;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #DC8449;
+    outline: none;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s all ease;
+}
+
+.wrapper .typing-area .input-field button:hover {
+    background: #DC8449;
+    color: white;
+}
+
+.wrapper .typing-area .input-field input:valid ~ button {
+    opacity: 1;
+    pointer-events: auto;
+}
+.icon-left{
+    /* position: relative; */
+    margin-left: 10px;
+    /* background: #DC8449; */
+    color: white;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+}
+.icon-right{
+    width: 100px;
+    height: 50px;
+} 
+.user{
+    height: 60px;
+    width: 60px;
+}
+.krishna{
+    height: 60px;
+    width: 60px;
+}
+.lower{
+    color: rgb(0, 0, 0);
+}
+
+/* #text-area{
+    width: 100%;
+    height: 100%;
+} */
+
+
+@media only screen and (max-width: 780px) {
+    .wrapper{
+      margin-left: 0px;
+      width: 100%;
+    }
+  } 
+

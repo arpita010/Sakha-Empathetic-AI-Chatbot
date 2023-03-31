@@ -1,0 +1,106 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakha</title>
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> 
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/newchat.css">
+
+    <!-- Try -->
+    <!-- <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
+
+</head>
+<body style="background-color: rgb(24, 23, 23);"> 
+
+    <!-- Sound Part -->
+    <div>
+        <img id="img-volume" src="./images/mute.png" alt=""> 
+        <h1 class="top ">Hare Krishna 🦚 <span id="username"></span></h1> 
+    </div> 
+
+    <!-- End of Sound --> 
+
+    <!-- Logo Part + Place Holder -->
+    <div class="container"> 
+
+        <!-- LOGO + Name -->
+        <div class="name">
+            <h3>Sakha ~ <img class="logo" src="./images/logo.png" alt=""> </h1>
+            
+        </div> 
+         <!--End of LOGO + Name  -->
+         
+        <!-- Place Holder -->
+        <div class="text">
+            <!-- <textarea placeholder="what is the purpose of life ?" class="text-area" name="" id="text-area" cols="106" rows="10"></textarea> -->
+            <div class="wrapper" >
+                <div class="box">
+                    <div class="item">  
+                        <div class="icon icon-right">
+                            <img class="user" src="./images/man.png" alt="">
+                            <!-- <i class="fa fa-user"></i> -->
+                        </div>
+                        <div class="msg">
+                            <p id="text-area">Hare Krishna</p>
+                        </div>
+                    </div>
+                    <br clear="both">
+                    <div class="item right">
+                        <div class="msg">
+                            <p id="sakhaResponse">hare krishna</p>
+                        </div>
+                        <div class="icon-left">
+                            <img  class="krishna" src="./images/krishna.png" alt="">
+                            <!-- <i class="fa fa-user"></i> -->
+                        </div>
+                        
+                    </div>
+                </div> 
+                <div class="typing-area">
+                    <div class="input-field">
+                        <input class="lower" id="lower-button" type="text" placeholder="Type your message" required>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ Questions + ASK Question -->
+            <div class="faq">
+                <button type="button" class="btn btn-col btn-outline-dark" id="btncol1">What is the purpose of life ?</button>
+                <button type="button" class="btn btn-col btn-outline-dark" id="btncol2">What is relationship ?</button>
+                <button type="button" class="btn btn-col btn-outline-dark" id="btncol3">What is life ?</button>
+                <button type="button" class="btn btn-col btn-outline-dark" id="btncol4">What is soul ?</button>
+                <button type="button" class="btn btn-col btn-outline-dark" id="btncol5">What is happiness ?</button>
+            </div>
+            <button type="button" id="askKrishna" class="btn btn-ask btn-outline-success">Ask Krishna</button> 
+            <!-- End of FAQ --> 
+
+        </div> 
+        <!-- End of Place Holder --> 
+
+        <!-- Team Sakha Part -->
+        <div class="lower-text">
+            <h1  class="lower-text">Team Sakha 💙</h1>
+        </div> 
+        <!-- End of Team Sakha --> 
+
+    </div> 
+    <!-- End of Main -->
+       
+
+    <!-- Javascript -->
+    <script src="js/chatscript.js" charset="utf-8"></script>
+
+    <!-- Bootsrap Javascript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+     
+</body>
+</html>
